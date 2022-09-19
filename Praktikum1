@@ -1,0 +1,8 @@
+data_aurel_csv = read.csv("C:/BahanPraktikum1_DataAurel.csv", header = TRUE, sep = ";")
+View(data_aurel_csv)
+mean(data_aurel_csv$Tinggi.Badan)
+str(data_aurel_csv)
+
+install.packages("xlsx")
+library("xlsx")
+data_aurel_xlsx = read.xlsx("C:/BahanPraktikum1_DataAurel.xlsx", 1)
